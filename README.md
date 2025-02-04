@@ -2,8 +2,6 @@
 
 Moov Android SDK
 
-This repository houses releases of the Moov Android SDK
-
 ![GitHub Release](https://img.shields.io/github/v/release/moovfinancial/moov-android)
 ![Android SDK](https://img.shields.io/badge/android_version-29%2B-green?logo=android)
 
