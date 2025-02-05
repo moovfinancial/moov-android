@@ -17,12 +17,21 @@ To integrate the Moov Android SDK into your project, add Github as a repository 
 ```
 dependencyResolutionManagement {
     repositories {
-        maven(url = "https://maven.pkg.github.com/moovfinancial/moov-android")
+        maven {
+            url = uri("https://maven.pkg.github.com/moovfinancial/moov-android")
+            credentials {
+                username = System.getenv("GITHUB_USER")
+                password = System.getenv("GITHUB_TOKEN")
+            }
+        }
         ...
     }
 }
-
 ```
+
+You will also need to set the following environment variables:
+- `GITHUB_USER`: your Github username
+- `GITHUB_TOKEN`: a Github personal access token (PAT) with the `packages:read` scope
 
 Next, register the library in your `gradle/libs.versions.toml`:
 
@@ -35,7 +44,6 @@ moov-sdk = "0.1.0"
 moov-sdk-debug = { group = "io.moov", name = "android-sdk-debug", version.ref = "moov-sdk" }
 moov-sdk = { group = "io.moov", name = "android-sdk", version.ref = "moov-sdk" }
 ...
-
 ```
 
 Finally, add the library as a dependency to the module in your application which will be using the SDK:
