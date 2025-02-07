@@ -42,11 +42,12 @@ $dokka.location:io.moov.sdk.models/Mode/values/#/PointingToDeclaration/moov-and
 $dokka.location:io.moov.sdk////PointingToDeclaration/moov-android/io.moov.sdk/index.html
 $dokka.location:io.moov.sdk/EventHandler///PointingToDeclaration/moov-android/io.moov.sdk/-event-handler/index.html
 $dokka.location:io.moov.sdk/MoovSDK.Factory///PointingToDeclaration/moov-android/io.moov.sdk/-moov-s-d-k/-factory/index.html
-$dokka.location:io.moov.sdk/MoovSDK.Factory/createTerminal/#android.content.Context#io.moov.sdk.models.Mode#kotlin.String#kotlin.Function1[io.moov.sdk.TerminalState,kotlin.Unit]?/PointingToDeclaration/moov-android/io.moov.sdk/-moov-s-d-k/-factory/create-terminal.html
+$dokka.location:io.moov.sdk/MoovSDK.Factory/createTerminal/#android.content.Context#io.moov.sdk.models.Mode#kotlin.String/PointingToDeclaration/moov-android/io.moov.sdk/-moov-s-d-k/-factory/create-terminal.html
 $dokka.location:io.moov.sdk/MoovSDK///PointingToDeclaration/moov-android/io.moov.sdk/-moov-s-d-k/index.html
 $dokka.location:io.moov.sdk/Terminal///PointingToDeclaration/moov-android/io.moov.sdk/-terminal/index.html
 $dokka.location:io.moov.sdk/Terminal/createTransfer/#kotlin.String#io.moov.sdk.models.CreateTransferParams#kotlin.Function1[io.moov.sdk.models.EMVMessage,kotlin.Unit]/PointingToDeclaration/moov-android/io.moov.sdk/-terminal/create-transfer.html
 $dokka.location:io.moov.sdk/Terminal/dispose/#/PointingToDeclaration/moov-android/io.moov.sdk/-terminal/dispose.html
+$dokka.location:io.moov.sdk/Terminal/state/#/PointingToDeclaration/moov-android/io.moov.sdk/-terminal/state.html
 $dokka.location:io.moov.sdk/TerminalState.DISPOSED///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}moov-android/io.moov.sdk/-terminal-state/-d-i-s-p-o-s-e-d/index.html
 $dokka.location:io.moov.sdk/TerminalState.ERROR///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}moov-android/io.moov.sdk/-terminal-state/-e-r-r-o-r/index.html
 $dokka.location:io.moov.sdk/TerminalState.INIT///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}moov-android/io.moov.sdk/-terminal-state/-i-n-i-t/index.html
