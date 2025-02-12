@@ -3,7 +3,7 @@
 Moov Android SDK
 
 ![Maven Central](https://img.shields.io/maven-central/v/io.moov/android-sdk?color=77a5ff)
-![Android SDK](https://img.shields.io/badge/android_sdk-29%2B-green?logo=android)
+![Android SDK](https://img.shields.io/badge/android_sdk-28%2B-green?logo=android)
 ![OpenJDK](https://img.shields.io/badge/jdk-11%2B-red?logo=openjdk)
 
 
