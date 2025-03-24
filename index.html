@@ -47,7 +47,7 @@
         </button>
         <div class="navigation-controls--break ui-kit_mobile-only"></div>
         <div class="library-version" id="library-version">
-0.4.1        </div>
+0.5.0        </div>
         <div class="navigation-controls">
         <div class="filter-section filter-section_loading" id="filter-section">
                 <button class="platform-tag platform-selector jvm-like" data-active=""
@@ -109,7 +109,7 @@
   <div class="breadcrumbs"></div>
   <div class="cover ">
     <h1 class="cover"><span><span>moov-android</span></span></h1>
-    <div class="platform-hinted UnderCoverText" data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/release"><p class="paragraph">The Moov SDK provides tap-to-pay functionality via an Android app</p></div></div>
+    <div class="platform-hinted UnderCoverText" data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/release"><p class="paragraph">The Moov SDK provides tap-to-pay functionality via an Android app</p><h2 class="">Application Registration</h2><p class="paragraph">Applications utilizing this SDK must be registered via the <a href="https://github.com/moovfinancial/moov-java/blob/main/docs/sdks/terminalapplications/README.md">Moov API</a>. This process enables device integrity checks as well as authorizing specific merchants to utilize the Tap to Pay SDK. The process for application registration is as follows:</p><ol><li><p class="paragraph">create a <code class="lang-kotlin">TerminalApplication</code> via <code class="lang-kotlin">POST /terminal-applications</code></p></li><li><p class="paragraph">wait for the application to move to <code class="lang-kotlin">enabled</code>. This can be detected via the <code class="lang-kotlin">terminalAppRegistration.updated</code> webhook</p></li><li><p class="paragraph">link the <code class="lang-kotlin">TerminalApplication</code> to a merchant via <code class="lang-kotlin">POST /accounts/{accountID}/terminal-applications</code></p></li><li><p class="paragraph">register new versions of the application via <code class="lang-kotlin">POST /terminal-applications/{terminalApplicationID}/versions</code></p></li></ol><p class="paragraph">The <code class="lang-kotlin">terminalConfig</code> value referenced in the examples below is the output of <a href="https://github.com/moovfinancial/moov-java/blob/main/docs/sdks/terminalconfigurations/README.md#get">the terminalConfigurations API</a>. This is an opaque string which contains information necessary for the <code class="lang-kotlin">Terminal</code> to operate properly</p></div></div>
   </div>
   <h2 class="">Packages</h2>
   <div class="table"><a data-name="1992204863%2FPackages%2F275946699" anchor-label="io.moov.sdk" id="1992204863%2FPackages%2F275946699" data-filterable-set=":/release"></a>
@@ -150,6 +150,24 @@
         <div><span class="brief-comment"><a data-name="-330080515%2FPackages%2F275946699" anchor-label="io.moov.sdk.models" id="-330080515%2FPackages%2F275946699" data-filterable-set=":/release"></a>
             <p class="paragraph">Models for use in the Moov SDK</p>
           </span></div>
+      </div>
+    </div>
+<a data-name="2024168254%2FPackages%2F275946699" anchor-label="io.moov.sdk.mpp" id="2024168254%2FPackages%2F275946699" data-filterable-set=":/release"></a>
+    <div class="table-row" data-filterable-current=":/release" data-filterable-set=":/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="moov-android/io.moov.sdk.mpp/index.html">io.moov.sdk.mpp</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2024168254%2FPackages%2F275946699"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">androidJvm</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
       </div>
     </div>
   </div>
