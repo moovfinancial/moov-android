@@ -28,7 +28,7 @@ Next, register the library in your `gradle/libs.versions.toml`:
 
 ```toml
 [versions]
-moov-sdk = "0.1.1"
+moov-sdk = "0.5.0"
 ...
 
 [libraries]
