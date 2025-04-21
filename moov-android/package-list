@@ -1,10 +1,30 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
 $dokka.location:io.moov.sdk.models////PointingToDeclaration/moov-android/io.moov.sdk.models/index.html
+$dokka.location:io.moov.sdk.models//uiMsgToUiRequestData/#com.mypinpad.tsdk.api.callbacks.UiMessage/PointingToDeclaration/moov-android/io.moov.sdk.models/ui-msg-to-ui-request-data.html
 $dokka.location:io.moov.sdk.models/AuthorizationTimeoutException///PointingToDeclaration/moov-android/io.moov.sdk.models/-authorization-timeout-exception/index.html
 $dokka.location:io.moov.sdk.models/AuthorizationTimeoutException/AuthorizationTimeoutException/#kotlin.time.Duration#kotlin.Throwable?/PointingToDeclaration/moov-android/io.moov.sdk.models/-authorization-timeout-exception/-authorization-timeout-exception.html
 $dokka.location:io.moov.sdk.models/CardDiscoveryTimeoutException///PointingToDeclaration/moov-android/io.moov.sdk.models/-card-discovery-timeout-exception/index.html
 $dokka.location:io.moov.sdk.models/CardDiscoveryTimeoutException/CardDiscoveryTimeoutException/#kotlin.time.Duration#kotlin.Throwable?/PointingToDeclaration/moov-android/io.moov.sdk.models/-card-discovery-timeout-exception/-card-discovery-timeout-exception.html
+$dokka.location:io.moov.sdk.models/CreateTapAuthorizationEvent.HandleUiMessage///PointingToDeclaration/moov-android/io.moov.sdk.models/-create-tap-authorization-event/-handle-ui-message/index.html
+$dokka.location:io.moov.sdk.models/CreateTapAuthorizationEvent.HandleUiMessage/HandleUiMessage/#io.moov.sdk.models.UserInterfaceRequestData/PointingToDeclaration/moov-android/io.moov.sdk.models/-create-tap-authorization-event/-handle-ui-message/-handle-ui-message.html
+$dokka.location:io.moov.sdk.models/CreateTapAuthorizationEvent.HandleUiMessage/data/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-create-tap-authorization-event/-handle-ui-message/data.html
+$dokka.location:io.moov.sdk.models/CreateTapAuthorizationEvent.HardwareAttestationFailure///PointingToDeclaration/moov-android/io.moov.sdk.models/-create-tap-authorization-event/-hardware-attestation-failure/index.html
+$dokka.location:io.moov.sdk.models/CreateTapAuthorizationEvent.HardwareAttestationFailure/HardwareAttestationFailure/#kotlin.String?/PointingToDeclaration/moov-android/io.moov.sdk.models/-create-tap-authorization-event/-hardware-attestation-failure/-hardware-attestation-failure.html
+$dokka.location:io.moov.sdk.models/CreateTapAuthorizationEvent.HardwareAttestationFailure/reason/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-create-tap-authorization-event/-hardware-attestation-failure/reason.html
+$dokka.location:io.moov.sdk.models/CreateTapAuthorizationEvent.InvalidConfiguration///PointingToDeclaration/moov-android/io.moov.sdk.models/-create-tap-authorization-event/-invalid-configuration/index.html
+$dokka.location:io.moov.sdk.models/CreateTapAuthorizationEvent.InvalidConfiguration/InvalidConfiguration/#kotlin.String?/PointingToDeclaration/moov-android/io.moov.sdk.models/-create-tap-authorization-event/-invalid-configuration/-invalid-configuration.html
+$dokka.location:io.moov.sdk.models/CreateTapAuthorizationEvent.InvalidConfiguration/reason/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-create-tap-authorization-event/-invalid-configuration/reason.html
+$dokka.location:io.moov.sdk.models/CreateTapAuthorizationEvent.NetworkConnectionFailed///PointingToDeclaration/moov-android/io.moov.sdk.models/-create-tap-authorization-event/-network-connection-failed/index.html
+$dokka.location:io.moov.sdk.models/CreateTapAuthorizationEvent.NfcReaderFailure///PointingToDeclaration/moov-android/io.moov.sdk.models/-create-tap-authorization-event/-nfc-reader-failure/index.html
+$dokka.location:io.moov.sdk.models/CreateTapAuthorizationEvent.TransactionAuthorized///PointingToDeclaration/moov-android/io.moov.sdk.models/-create-tap-authorization-event/-transaction-authorized/index.html
+$dokka.location:io.moov.sdk.models/CreateTapAuthorizationEvent.TransactionAuthorized/TransactionAuthorized/#kotlin.String/PointingToDeclaration/moov-android/io.moov.sdk.models/-create-tap-authorization-event/-transaction-authorized/-transaction-authorized.html
+$dokka.location:io.moov.sdk.models/CreateTapAuthorizationEvent.TransactionAuthorized/token/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-create-tap-authorization-event/-transaction-authorized/token.html
+$dokka.location:io.moov.sdk.models/CreateTapAuthorizationEvent.TransactionCancelled///PointingToDeclaration/moov-android/io.moov.sdk.models/-create-tap-authorization-event/-transaction-cancelled/index.html
+$dokka.location:io.moov.sdk.models/CreateTapAuthorizationEvent.TransactionNotAuthorized///PointingToDeclaration/moov-android/io.moov.sdk.models/-create-tap-authorization-event/-transaction-not-authorized/index.html
+$dokka.location:io.moov.sdk.models/CreateTapAuthorizationEvent.TransactionTimedOut///PointingToDeclaration/moov-android/io.moov.sdk.models/-create-tap-authorization-event/-transaction-timed-out/index.html
+$dokka.location:io.moov.sdk.models/CreateTapAuthorizationEvent.UnknownFailure///PointingToDeclaration/moov-android/io.moov.sdk.models/-create-tap-authorization-event/-unknown-failure/index.html
+$dokka.location:io.moov.sdk.models/CreateTapAuthorizationEvent///PointingToDeclaration/moov-android/io.moov.sdk.models/-create-tap-authorization-event/index.html
 $dokka.location:io.moov.sdk.models/CreateTransferParams///PointingToDeclaration/moov-android/io.moov.sdk.models/-create-transfer-params/index.html
 $dokka.location:io.moov.sdk.models/CreateTransferParams/CreateTransferParams/#io.moov.sdk.models.TapAuthorizationParams#java.util.UUID#java.util.UUID#kotlin.String?#kotlin.String?/PointingToDeclaration/moov-android/io.moov.sdk.models/-create-transfer-params/-create-transfer-params.html
 $dokka.location:io.moov.sdk.models/CreateTransferParams/description/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-create-transfer-params/description.html
@@ -30,6 +50,17 @@ $dokka.location:io.moov.sdk.models/TapAuthorizationParams/amount/#/PointingToDec
 $dokka.location:io.moov.sdk.models/TapAuthorizationParams/currency/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-params/currency.html
 $dokka.location:io.moov.sdk.models/TapAuthorizationParams/customerAccountID/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-params/customer-account-i-d.html
 $dokka.location:io.moov.sdk.models/TapAuthorizationParams/customerReferenceNumber/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-params/customer-reference-number.html
+$dokka.location:io.moov.sdk.models/TerminalCreationResult.Created///PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-created/index.html
+$dokka.location:io.moov.sdk.models/TerminalCreationResult.Created/Created/#io.moov.sdk.Terminal/PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-created/-created.html
+$dokka.location:io.moov.sdk.models/TerminalCreationResult.Created/terminal/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-created/terminal.html
+$dokka.location:io.moov.sdk.models/TerminalCreationResult.DeviceAttestationFailed///PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-device-attestation-failed/index.html
+$dokka.location:io.moov.sdk.models/TerminalCreationResult.NetworkConnectionFailed///PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-network-connection-failed/index.html
+$dokka.location:io.moov.sdk.models/TerminalCreationResult.TerminalConfigurationError///PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-terminal-configuration-error/index.html
+$dokka.location:io.moov.sdk.models/TerminalCreationResult.TerminalConfigurationError/TerminalConfigurationError/#kotlin.String?/PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-terminal-configuration-error/-terminal-configuration-error.html
+$dokka.location:io.moov.sdk.models/TerminalCreationResult.TerminalConfigurationError/reason/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-terminal-configuration-error/reason.html
+$dokka.location:io.moov.sdk.models/TerminalCreationResult.UnknownError///PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-unknown-error/index.html
+$dokka.location:io.moov.sdk.models/TerminalCreationResult.UnsupportedAndroidVersion///PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-unsupported-android-version/index.html
+$dokka.location:io.moov.sdk.models/TerminalCreationResult///PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/index.html
 $dokka.location:io.moov.sdk.models/TransactionTimeoutException///PointingToDeclaration/moov-android/io.moov.sdk.models/-transaction-timeout-exception/index.html
 $dokka.location:io.moov.sdk.models/TransactionTimeoutException/TransactionTimeoutException/#kotlin.time.Duration#kotlin.Throwable?/PointingToDeclaration/moov-android/io.moov.sdk.models/-transaction-timeout-exception/-transaction-timeout-exception.html
 $dokka.location:io.moov.sdk.models/UserInterfaceMessageType.APPROVED///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}moov-android/io.moov.sdk.models/-user-interface-message-type/-a-p-p-r-o-v-e-d/index.html
@@ -64,29 +95,14 @@ $dokka.location:io.moov.sdk.models/ValueType///PointingToDeclaration/moov-andro
 $dokka.location:io.moov.sdk.models/ValueType/entries/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-value-type/entries.html
 $dokka.location:io.moov.sdk.models/ValueType/valueOf/#kotlin.String/PointingToDeclaration/moov-android/io.moov.sdk.models/-value-type/value-of.html
 $dokka.location:io.moov.sdk.models/ValueType/values/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-value-type/values.html
-$dokka.location:io.moov.sdk.mpp////PointingToDeclaration/moov-android/io.moov.sdk.mpp/index.html
-$dokka.location:io.moov.sdk.mpp//uiMsgToUiRequestData/#com.mypinpad.tsdk.api.callbacks.UiMessage/PointingToDeclaration/moov-android/io.moov.sdk.mpp/ui-msg-to-ui-request-data.html
 $dokka.location:io.moov.sdk////PointingToDeclaration/moov-android/io.moov.sdk/index.html
-$dokka.location:io.moov.sdk/EventHandler///PointingToDeclaration/moov-android/io.moov.sdk/-event-handler/index.html
 $dokka.location:io.moov.sdk/MoovSDK.Factory///PointingToDeclaration/moov-android/io.moov.sdk/-moov-s-d-k/-factory/index.html
 $dokka.location:io.moov.sdk/MoovSDK.Factory/createTerminal/#android.content.Context#io.moov.sdk.models.Mode#kotlin.String/PointingToDeclaration/moov-android/io.moov.sdk/-moov-s-d-k/-factory/create-terminal.html
 $dokka.location:io.moov.sdk/MoovSDK///PointingToDeclaration/moov-android/io.moov.sdk/-moov-s-d-k/index.html
 $dokka.location:io.moov.sdk/Terminal///PointingToDeclaration/moov-android/io.moov.sdk/-terminal/index.html
-$dokka.location:io.moov.sdk/Terminal/createTapAuthorization/#io.moov.sdk.models.TapAuthorizationParams#kotlin.Function1[io.moov.sdk.models.UserInterfaceRequestData,kotlin.Unit]/PointingToDeclaration/moov-android/io.moov.sdk/-terminal/create-tap-authorization.html
-$dokka.location:io.moov.sdk/Terminal/createTapTransfer/#kotlin.String#io.moov.sdk.models.CreateTransferParams#kotlin.Function1[io.moov.sdk.models.UserInterfaceRequestData,kotlin.Unit]/PointingToDeclaration/moov-android/io.moov.sdk/-terminal/create-tap-transfer.html
+$dokka.location:io.moov.sdk/Terminal/createTapAuthorization/#io.moov.sdk.models.TapAuthorizationParams/PointingToDeclaration/moov-android/io.moov.sdk/-terminal/create-tap-authorization.html
 $dokka.location:io.moov.sdk/Terminal/dispose/#/PointingToDeclaration/moov-android/io.moov.sdk/-terminal/dispose.html
-$dokka.location:io.moov.sdk/Terminal/state/#/PointingToDeclaration/moov-android/io.moov.sdk/-terminal/state.html
-$dokka.location:io.moov.sdk/TerminalState.DISPOSED///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}moov-android/io.moov.sdk/-terminal-state/-d-i-s-p-o-s-e-d/index.html
-$dokka.location:io.moov.sdk/TerminalState.ERROR///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}moov-android/io.moov.sdk/-terminal-state/-e-r-r-o-r/index.html
-$dokka.location:io.moov.sdk/TerminalState.INIT///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}moov-android/io.moov.sdk/-terminal-state/-i-n-i-t/index.html
-$dokka.location:io.moov.sdk/TerminalState.IN_USE///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}moov-android/io.moov.sdk/-terminal-state/-i-n_-u-s-e/index.html
-$dokka.location:io.moov.sdk/TerminalState.READY///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}moov-android/io.moov.sdk/-terminal-state/-r-e-a-d-y/index.html
-$dokka.location:io.moov.sdk/TerminalState///PointingToDeclaration/moov-android/io.moov.sdk/-terminal-state/index.html
-$dokka.location:io.moov.sdk/TerminalState/entries/#/PointingToDeclaration/moov-android/io.moov.sdk/-terminal-state/entries.html
-$dokka.location:io.moov.sdk/TerminalState/valueOf/#kotlin.String/PointingToDeclaration/moov-android/io.moov.sdk/-terminal-state/value-of.html
-$dokka.location:io.moov.sdk/TerminalState/values/#/PointingToDeclaration/moov-android/io.moov.sdk/-terminal-state/values.html
 $dokka.location:io.moov.sdk/Utils///PointingToDeclaration/moov-android/io.moov.sdk/-utils/index.html
-$dokka.location:io.moov.sdk/Utils/exponentialBackoff/#kotlin.time.Duration#kotlin.Int#kotlin.Int#kotlin.time.Duration?/PointingToDeclaration/moov-android/io.moov.sdk/-utils/exponential-backoff.html
+$dokka.location:io.moov.sdk/Utils/retryOnErrorWithBackoff/#kotlin.time.Duration#kotlin.time.Duration#kotlin.Double#kotlin.Function1[TypeParam(bounds=[kotlin.Any?]),kotlin.Boolean]#kotlin.coroutines.SuspendFunction0[TypeParam(bounds=[kotlin.Any?])]/PointingToDeclaration/moov-android/io.moov.sdk/-utils/retry-on-error-with-backoff.html
 io.moov.sdk
 io.moov.sdk.models
-io.moov.sdk.mpp
