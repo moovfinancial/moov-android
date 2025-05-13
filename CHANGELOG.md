@@ -1,3 +1,9 @@
+v0.7.0 (2025-05-13)
+
+### :warning: Breaking Changes
+
+-	refactor of terminal configuration to match the updated model returned by the Moov API
+
 v0.6.2 (2025-05-13)
 -------------------
 
