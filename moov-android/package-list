@@ -34,12 +34,6 @@ $dokka.location:io.moov.sdk.models/CreateTransferRequest/partnerAccountID/#/Poin
 $dokka.location:io.moov.sdk.models/CreateTransferRequest/tapAuthorizationParams/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-create-transfer-request/tap-authorization-params.html
 $dokka.location:io.moov.sdk.models/HardwareAttestationException///PointingToDeclaration/moov-android/io.moov.sdk.models/-hardware-attestation-exception/index.html
 $dokka.location:io.moov.sdk.models/HardwareAttestationException/HardwareAttestationException/#kotlin.String#kotlin.Throwable?/PointingToDeclaration/moov-android/io.moov.sdk.models/-hardware-attestation-exception/-hardware-attestation-exception.html
-$dokka.location:io.moov.sdk.models/Mode.PRODUCTION///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}moov-android/io.moov.sdk.models/-mode/-p-r-o-d-u-c-t-i-o-n/index.html
-$dokka.location:io.moov.sdk.models/Mode.SANDBOX///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}moov-android/io.moov.sdk.models/-mode/-s-a-n-d-b-o-x/index.html
-$dokka.location:io.moov.sdk.models/Mode///PointingToDeclaration/moov-android/io.moov.sdk.models/-mode/index.html
-$dokka.location:io.moov.sdk.models/Mode/entries/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-mode/entries.html
-$dokka.location:io.moov.sdk.models/Mode/valueOf/#kotlin.String/PointingToDeclaration/moov-android/io.moov.sdk.models/-mode/value-of.html
-$dokka.location:io.moov.sdk.models/Mode/values/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-mode/values.html
 $dokka.location:io.moov.sdk.models/NetworkTimeoutException///PointingToDeclaration/moov-android/io.moov.sdk.models/-network-timeout-exception/index.html
 $dokka.location:io.moov.sdk.models/NetworkTimeoutException/NetworkTimeoutException/#kotlin.time.Duration#kotlin.Throwable?/PointingToDeclaration/moov-android/io.moov.sdk.models/-network-timeout-exception/-network-timeout-exception.html
 $dokka.location:io.moov.sdk.models/PinPadException///PointingToDeclaration/moov-android/io.moov.sdk.models/-pin-pad-exception/index.html
@@ -97,7 +91,7 @@ $dokka.location:io.moov.sdk.models/ValueType/valueOf/#kotlin.String/PointingToDe
 $dokka.location:io.moov.sdk.models/ValueType/values/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-value-type/values.html
 $dokka.location:io.moov.sdk////PointingToDeclaration/moov-android/io.moov.sdk/index.html
 $dokka.location:io.moov.sdk/MoovSDK.Factory///PointingToDeclaration/moov-android/io.moov.sdk/-moov-s-d-k/-factory/index.html
-$dokka.location:io.moov.sdk/MoovSDK.Factory/createTerminal/#android.content.Context#io.moov.sdk.models.Mode#kotlin.String/PointingToDeclaration/moov-android/io.moov.sdk/-moov-s-d-k/-factory/create-terminal.html
+$dokka.location:io.moov.sdk/MoovSDK.Factory/createTerminal/#android.content.Context#kotlin.String/PointingToDeclaration/moov-android/io.moov.sdk/-moov-s-d-k/-factory/create-terminal.html
 $dokka.location:io.moov.sdk/MoovSDK///PointingToDeclaration/moov-android/io.moov.sdk/-moov-s-d-k/index.html
 $dokka.location:io.moov.sdk/Terminal///PointingToDeclaration/moov-android/io.moov.sdk/-terminal/index.html
 $dokka.location:io.moov.sdk/Terminal/createTapAuthorization/#io.moov.sdk.models.TapAuthorizationParams/PointingToDeclaration/moov-android/io.moov.sdk/-terminal/create-tap-authorization.html
