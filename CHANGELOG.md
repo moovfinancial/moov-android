@@ -1,3 +1,13 @@
+v0.8.0 (2025-05-28)
+
+### Features
+
+- Adds the ability to create a tap transfer
+
+### Fixes
+
+- fix for issue where createTapAuthorization would always return UnknownError
+
 v0.7.0 (2025-05-13)
 
 ### :warning: Breaking Changes
