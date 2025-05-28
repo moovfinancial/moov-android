@@ -1,3 +1,9 @@
+v0.8.1 (2025-05-28)
+
+### Documentation
+
+- Minor updates to kdoc
+
 v0.8.0 (2025-05-28)
 
 ### Features
