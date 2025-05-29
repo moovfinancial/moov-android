@@ -1,3 +1,8 @@
+v0.8.2 (2025-05-29)
+
+### Misc
+- modifications to JWKS public keys
+
 v0.8.1 (2025-05-28)
 
 ### Documentation
