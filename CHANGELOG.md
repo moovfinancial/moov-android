@@ -1,3 +1,8 @@
+v0.9.0 (2025-06-05)
+
+### Features
+- adds first-class support for late initialization of the SDK
+
 v0.8.2 (2025-05-29)
 
 ### Misc
