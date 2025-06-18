@@ -143,8 +143,10 @@ $dokka.location:io.moov.sdk/MoovSDK.Factory///PointingToDeclaration/moov-androi
 $dokka.location:io.moov.sdk/MoovSDK.Factory/createTerminal/#android.content.Context#io.moov.sdk.models.ClientConfiguration#java.util.UUID#java.util.UUID/PointingToDeclaration/moov-android/io.moov.sdk/-moov-s-d-k/-factory/create-terminal.html
 $dokka.location:io.moov.sdk/MoovSDK.Factory/createTerminal/#android.content.Context#kotlin.String/PointingToDeclaration/moov-android/io.moov.sdk/-moov-s-d-k/-factory/create-terminal.html
 $dokka.location:io.moov.sdk/MoovSDK.Factory/isApplicationProcess/#/PointingToDeclaration/moov-android/io.moov.sdk/-moov-s-d-k/-factory/is-application-process.html
-$dokka.location:io.moov.sdk/MoovSDK.Factory/onApplicationCreated/#android.app.Application/PointingToDeclaration/moov-android/io.moov.sdk/-moov-s-d-k/-factory/on-application-created.html
+$dokka.location:io.moov.sdk/MoovSDK.Factory/onApplicationCreated/#android.app.Application#io.moov.sdk.SDKLogger/PointingToDeclaration/moov-android/io.moov.sdk/-moov-s-d-k/-factory/on-application-created.html
 $dokka.location:io.moov.sdk/MoovSDK///PointingToDeclaration/moov-android/io.moov.sdk/-moov-s-d-k/index.html
+$dokka.location:io.moov.sdk/SDKLogger///PointingToDeclaration/moov-android/io.moov.sdk/-s-d-k-logger/index.html
+$dokka.location:io.moov.sdk/SDKLogger/log/#kotlin.String/PointingToDeclaration/moov-android/io.moov.sdk/-s-d-k-logger/log.html
 $dokka.location:io.moov.sdk/Terminal///PointingToDeclaration/moov-android/io.moov.sdk/-terminal/index.html
 $dokka.location:io.moov.sdk/Terminal/createTapAuthorization/#io.moov.sdk.models.TapAuthorizationParams/PointingToDeclaration/moov-android/io.moov.sdk/-terminal/create-tap-authorization.html
 $dokka.location:io.moov.sdk/Terminal/createTapTransfer/#io.moov.sdk.models.CreateTapTransferParams/PointingToDeclaration/moov-android/io.moov.sdk/-terminal/create-tap-transfer.html
