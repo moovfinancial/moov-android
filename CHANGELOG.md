@@ -1,3 +1,10 @@
+# v0.11.0 (2025-06-18)
+
+## :sparkles: Features
+
+- add logger to capture production crash logs
+- add production endpoint support
+
 # v0.10.0 (2025-06-09)
 
 ## Other
