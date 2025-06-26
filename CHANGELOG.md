@@ -1,3 +1,9 @@
+# v0.12.0 (2025-06-26)
+
+## :warning: Breaking Changes
+
+-	refactor of tap authorization events to simplify
+
 # v0.11.0 (2025-06-18)
 
 ## :sparkles: Features
