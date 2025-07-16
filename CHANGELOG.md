@@ -1,3 +1,9 @@
+# v0.12.1 (2025-07-16)
+
+## :bug: Fixes
+
+- fixes to event mapping for CDCVM
+
 # v0.12.0 (2025-06-26)
 
 ## :warning: Breaking Changes
