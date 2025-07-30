@@ -1,3 +1,11 @@
+# v0.12.2 (2025-07-30)
+
+## :bug: Fixes
+
+- fixes for AMEX transaction processing
+- initialization fixes
+- dependency upgrades
+
 # v0.12.1 (2025-07-16)
 
 ## :bug: Fixes
