@@ -1,6 +1,7 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
 $dokka.location:io.moov.sdk.models////PointingToDeclaration/moov-android/io.moov.sdk.models/index.html
+$dokka.location:io.moov.sdk.models/AuthorizationResultEvent.AuthorizationFailed///PointingToDeclaration/moov-android/io.moov.sdk.models/-authorization-result-event/-authorization-failed/index.html
 $dokka.location:io.moov.sdk.models/AuthorizationResultEvent.TransactionAuthorized///PointingToDeclaration/moov-android/io.moov.sdk.models/-authorization-result-event/-transaction-authorized/index.html
 $dokka.location:io.moov.sdk.models/AuthorizationResultEvent.TransactionAuthorized/TransactionAuthorized/#kotlin.String/PointingToDeclaration/moov-android/io.moov.sdk.models/-authorization-result-event/-transaction-authorized/-transaction-authorized.html
 $dokka.location:io.moov.sdk.models/AuthorizationResultEvent.TransactionAuthorized/token/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-authorization-result-event/-transaction-authorized/token.html
@@ -90,6 +91,7 @@ $dokka.location:io.moov.sdk.models/VerificationMethod/valueOf/#kotlin.String/Poi
 $dokka.location:io.moov.sdk.models/VerificationMethod/values/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-verification-method/values.html
 $dokka.location:io.moov.sdk////PointingToDeclaration/moov-android/io.moov.sdk/index.html
 $dokka.location:io.moov.sdk//TAG/#/PointingToDeclaration/moov-android/io.moov.sdk/-t-a-g.html
+$dokka.location:io.moov.sdk//getStringStackTrace/kotlin.Throwable#/PointingToDeclaration/moov-android/io.moov.sdk/get-string-stack-trace.html
 $dokka.location:io.moov.sdk/MoovSDK.Factory///PointingToDeclaration/moov-android/io.moov.sdk/-moov-s-d-k/-factory/index.html
 $dokka.location:io.moov.sdk/MoovSDK.Factory/createTerminal/#android.content.Context#io.moov.sdk.models.ClientConfiguration#java.util.UUID#java.util.UUID/PointingToDeclaration/moov-android/io.moov.sdk/-moov-s-d-k/-factory/create-terminal.html
 $dokka.location:io.moov.sdk/MoovSDK.Factory/createTerminal/#android.content.Context#kotlin.String/PointingToDeclaration/moov-android/io.moov.sdk/-moov-s-d-k/-factory/create-terminal.html
