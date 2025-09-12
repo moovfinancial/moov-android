@@ -1,3 +1,14 @@
+# v0.13.0 (2025-09-12)
+
+## :sparkles: Features
+- adds new type: `CreateTapAuthorizationEvent.AuthorizationFailed` to indicate a
+  backend failure to process. This replaces several instances where an
+  `UnknownFailure` would previously be emitted
+
+## :note: Documentation
+- fully document Tap events
+- document error handling and `SDKLogger` usage
+
 # v0.12.2 (2025-07-30)
 
 ## :bug: Fixes
