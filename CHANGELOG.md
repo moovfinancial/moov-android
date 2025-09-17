@@ -1,3 +1,11 @@
+# v0.14.0 (2025-09-17)
+
+## :sparkles: Features
+- 16KB-aligned native libraries
+
+## Misc
+- upgrade dependencies
+
 # v0.13.0 (2025-09-12)
 
 ## :sparkles: Features
