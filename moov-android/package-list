@@ -46,6 +46,7 @@ $dokka.location:io.moov.sdk.models/TapAuthorizationError.HardwareAttestationFail
 $dokka.location:io.moov.sdk.models/TapAuthorizationError.InvalidConfiguration///PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-error/-invalid-configuration/index.html
 $dokka.location:io.moov.sdk.models/TapAuthorizationError.InvalidConfiguration/InvalidConfiguration/#kotlin.String?/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-error/-invalid-configuration/-invalid-configuration.html
 $dokka.location:io.moov.sdk.models/TapAuthorizationError.InvalidConfiguration/reason/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-error/-invalid-configuration/reason.html
+$dokka.location:io.moov.sdk.models/TapAuthorizationError.LocationPermissionDenied///PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-error/-location-permission-denied/index.html
 $dokka.location:io.moov.sdk.models/TapAuthorizationError.NetworkConnectionFailed///PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-error/-network-connection-failed/index.html
 $dokka.location:io.moov.sdk.models/TapAuthorizationError.NfcReaderFailure///PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-error/-nfc-reader-failure/index.html
 $dokka.location:io.moov.sdk.models/TapAuthorizationError.UnknownFailure///PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-error/-unknown-failure/index.html
@@ -66,6 +67,8 @@ $dokka.location:io.moov.sdk.models/TerminalCreationResult.Created/Created/#io.mo
 $dokka.location:io.moov.sdk.models/TerminalCreationResult.Created/terminal/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-created/terminal.html
 $dokka.location:io.moov.sdk.models/TerminalCreationResult.DeviceAttestationFailed///PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-device-attestation-failed/index.html
 $dokka.location:io.moov.sdk.models/TerminalCreationResult.NetworkConnectionFailed///PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-network-connection-failed/index.html
+$dokka.location:io.moov.sdk.models/TerminalCreationResult.NfcReaderConnectionFailure///PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-nfc-reader-connection-failure/index.html
+$dokka.location:io.moov.sdk.models/TerminalCreationResult.NfcReaderPermissionRequired///PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-nfc-reader-permission-required/index.html
 $dokka.location:io.moov.sdk.models/TerminalCreationResult.TerminalConfigurationError///PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-terminal-configuration-error/index.html
 $dokka.location:io.moov.sdk.models/TerminalCreationResult.TerminalConfigurationError/TerminalConfigurationError/#kotlin.String?/PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-terminal-configuration-error/-terminal-configuration-error.html
 $dokka.location:io.moov.sdk.models/TerminalCreationResult.TerminalConfigurationError/reason/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-terminal-configuration-error/reason.html
