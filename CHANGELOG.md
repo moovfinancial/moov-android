@@ -1,7 +1,7 @@
 # v0.14.0 (2025-09-17)
 
 ## :sparkles: Features
-- 16KB-aligned native libraries
+- 16KB page size for native libraries
 
 ## Misc
 - upgrade dependencies
