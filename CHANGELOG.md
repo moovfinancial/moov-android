@@ -1,3 +1,9 @@
+# v0.14.1 (2025-09-22)
+
+## Misc
+
+- dependency upgrades (bugfix/security)
+
 # v0.14.0 (2025-09-17)
 
 ## :sparkles: Features
