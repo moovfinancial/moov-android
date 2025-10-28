@@ -1,3 +1,16 @@
+# v0.15.1 (2025-10-28)
+
+## Misc
+
+- dependency upgrades (bugfix/security)
+
+# v0.15.0 (2025-09-25)
+
+## :sparkles: Features
+
+- add OpenTelemetry
+- automatic discovery of terminal application
+
 # v0.14.1 (2025-09-22)
 
 ## Misc
