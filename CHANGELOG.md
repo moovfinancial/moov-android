@@ -1,3 +1,10 @@
+# v0.15.2 (2025-10-29)
+
+## Misc
+
+- dependency upgrades (bugfix/security)
+
+
 # v0.15.1 (2025-10-28)
 
 ## Misc
