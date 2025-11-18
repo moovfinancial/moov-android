@@ -1,9 +1,13 @@
+# v0.17.1 (2025-11-18)
+
+- bugfix in [createTerminal](https://moovfinancial.github.io/moov-android/moov-android/io.moov.sdk/-moov-s-d-k/-factory/index.html#859028225%2FFunctions%2F275946699)
+
 # v0.17.0 (2025-11-07)
 
 ## :sparkles: Features
 
 - Handle attestation failures during terminal create
-  - New terminal creation result: DeviceAttestationFailed, see [more](https://moovfinancial.github.io/moov-android/moov-android/io.moov.sdk.models/-terminal-creation-result/-device-attestation-failed/index.html) in the documentation
+  - New terminal creation result: DeviceAttestationFailed, learn [more](https://moovfinancial.github.io/moov-android/moov-android/io.moov.sdk.models/-terminal-creation-result/-device-attestation-failed/index.html) in the documentation
 
 # v0.16.0 (2025-11-04)
 
