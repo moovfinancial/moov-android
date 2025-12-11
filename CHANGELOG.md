@@ -1,3 +1,11 @@
+# v0.18.0 (2025-12-11)
+
+- Handle attestation failures during authorization sessions
+
+# v0.17.3 (2025-11-19)
+
+- improvement of the fix in v0.17.1
+
 # v0.17.1 (2025-11-18)
 
 - bugfix in [createTerminal](https://moovfinancial.github.io/moov-android/moov-android/io.moov.sdk/-moov-s-d-k/-factory/index.html#859028225%2FFunctions%2F275946699)
