@@ -1,6 +1,10 @@
+# v0.18.1 (2025-12-23)
+
+- improve attestation failure handling
+
 # v0.18.0 (2025-12-11)
 
-- Handle attestation failures during authorization sessions
+- handle attestation failures during authorization sessions
 
 # v0.17.3 (2025-11-19)
 
