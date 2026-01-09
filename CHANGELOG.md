@@ -1,3 +1,15 @@
+# v0.19.0 (2026-01-09)
+
+## :sparkles: Features
+
+- Handle attestation failures by including an error tracking ID, enabling Moov support to assist with issue investigation.
+
+# v0.18.2 (2026-01-09)
+
+## Misc
+
+- dependency upgrades (bugfix/security)
+
 # v0.18.1 (2025-12-23)
 
 - improve attestation failure handling
