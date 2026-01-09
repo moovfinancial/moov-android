@@ -1,6 +1,7 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
 $dokka.location:io.moov.sdk.models////PointingToDeclaration/moov-android/io.moov.sdk.models/index.html
+$dokka.location:io.moov.sdk.models//DEFAULT_SERVER_URL/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-d-e-f-a-u-l-t_-s-e-r-v-e-r_-u-r-l.html
 $dokka.location:io.moov.sdk.models//setAttributes/io.opentelemetry.api.trace.Span#io.moov.sdk.models.AndroidTerminalConfiguration/PointingToDeclaration/moov-android/io.moov.sdk.models/set-attributes.html
 $dokka.location:io.moov.sdk.models//setAttributes/io.opentelemetry.api.trace.Span#io.moov.sdk.models.CreateTapTransferParams/PointingToDeclaration/moov-android/io.moov.sdk.models/set-attributes.html
 $dokka.location:io.moov.sdk.models//setAttributes/io.opentelemetry.api.trace.Span#io.moov.sdk.models.TapAuthorizationParams/PointingToDeclaration/moov-android/io.moov.sdk.models/set-attributes.html
