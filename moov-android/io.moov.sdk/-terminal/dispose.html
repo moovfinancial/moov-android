@@ -47,7 +47,7 @@
         </button>
         <div class="navigation-controls--break ui-kit_mobile-only"></div>
         <div class="library-version" id="library-version">
-0.17.5        </div>
+0.20.0        </div>
         <div class="navigation-controls">
         <div class="filter-section filter-section_loading" id="filter-section">
                 <button class="platform-tag platform-selector jvm-like" data-active=""
@@ -110,7 +110,7 @@
   <div class="cover ">
     <h1 class="cover"><span><span>dispose</span></span></h1>
   </div>
-  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">suspend </span><span class="token keyword">fun </span><a href="dispose.html"><span class="token function">dispose</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><p class="paragraph">Disposes of this terminal instance</p><p class="paragraph">This method <i>must</i> be called when the application is done using the Terminal. This allows any background processes to complete and resources to be released.</p></div></div>
+  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">suspend </span><span class="token keyword">fun </span><a href="dispose.html"><span class="token function">dispose</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><p class="paragraph">Disposes of this terminal instance</p><p class="paragraph">This method <i>must</i> be called when the application is done using the Terminal. This allows any background processes to complete and resources to be released. For example, call this method when the user navigates to another area of the app where tap functionality is no longer available. On the other hand, if tap is currently in use and the app is simply moved to the background, you do not need to call dispose.</p></div></div>
 </div>
     <div class="footer">
         <a href="#content" id="go-to-top-link" class="footer--button footer--button_go-to-top"></a>
