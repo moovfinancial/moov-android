@@ -1,8 +1,14 @@
+# v0.20.0 (2026-01-20)
+
+## :sparkles: Test mode
+
+- test mode support
+
 # v0.19.0 (2026-01-09)
 
 ## :sparkles: Features
 
-- Handle attestation failures by including an error tracking ID, enabling Moov support to assist with issue investigation.
+- handle attestation failures by including an error tracking ID, enabling Moov support to assist with issue investigation.
 
 # v0.18.2 (2026-01-09)
 
