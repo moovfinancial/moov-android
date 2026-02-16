@@ -17,7 +17,7 @@ $dokka.location:io.moov.sdk.models/AuthorizationResultEvent///PointingToDeclarat
 $dokka.location:io.moov.sdk.models/CreateTapAuthorizationEvent///PointingToDeclaration/moov-android/io.moov.sdk.models/-create-tap-authorization-event/index.html
 $dokka.location:io.moov.sdk.models/CreateTapTransferEvent///PointingToDeclaration/moov-android/io.moov.sdk.models/-create-tap-transfer-event/index.html
 $dokka.location:io.moov.sdk.models/CreateTapTransferParams///PointingToDeclaration/moov-android/io.moov.sdk.models/-create-tap-transfer-params/index.html
-$dokka.location:io.moov.sdk.models/CreateTapTransferParams/CreateTapTransferParams/#io.moov.sdk.models.TapAuthorizationParams#java.util.UUID#java.util.UUID#java.util.UUID#kotlin.String?#kotlin.String?#kotlin.String?/PointingToDeclaration/moov-android/io.moov.sdk.models/-create-tap-transfer-params/-create-tap-transfer-params.html
+$dokka.location:io.moov.sdk.models/CreateTapTransferParams/CreateTapTransferParams/#io.moov.sdk.models.TapAuthorizationParams#io.moov.sdk.models.MID[io.moov.sdk.models.PartnerAccount]#io.moov.sdk.models.MID[io.moov.sdk.models.MerchantAccount]#io.moov.sdk.models.MID[io.moov.sdk.models.PaymentMethod]#kotlin.String?#kotlin.String?#kotlin.String?/PointingToDeclaration/moov-android/io.moov.sdk.models/-create-tap-transfer-params/-create-tap-transfer-params.html
 $dokka.location:io.moov.sdk.models/CreateTapTransferParams/accessToken/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-create-tap-transfer-params/access-token.html
 $dokka.location:io.moov.sdk.models/CreateTapTransferParams/description/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-create-tap-transfer-params/description.html
 $dokka.location:io.moov.sdk.models/CreateTapTransferParams/destinationPaymentMethodId/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-create-tap-transfer-params/destination-payment-method-id.html
@@ -74,7 +74,7 @@ $dokka.location:io.moov.sdk.models/TapAuthorizationError.UnsupportedVerification
 $dokka.location:io.moov.sdk.models/TapAuthorizationError.UnsupportedVerificationMethod/method/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-error/-unsupported-verification-method/method.html
 $dokka.location:io.moov.sdk.models/TapAuthorizationError///PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-error/index.html
 $dokka.location:io.moov.sdk.models/TapAuthorizationParams///PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-params/index.html
-$dokka.location:io.moov.sdk.models/TapAuthorizationParams/TapAuthorizationParams/#kotlin.ULong#java.util.Currency#java.util.UUID?#kotlin.String?/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-params/-tap-authorization-params.html
+$dokka.location:io.moov.sdk.models/TapAuthorizationParams/TapAuthorizationParams/#kotlin.ULong#java.util.Currency#io.moov.sdk.models.MID[io.moov.sdk.models.CustomerAccount]?#kotlin.String?/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-params/-tap-authorization-params.html
 $dokka.location:io.moov.sdk.models/TapAuthorizationParams/amount/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-params/amount.html
 $dokka.location:io.moov.sdk.models/TapAuthorizationParams/currency/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-params/currency.html
 $dokka.location:io.moov.sdk.models/TapAuthorizationParams/customerAccountId/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-params/customer-account-id.html
@@ -146,7 +146,7 @@ $dokka.location:io.moov.sdk////PointingToDeclaration/moov-android/io.moov.sdk/i
 $dokka.location:io.moov.sdk//TAG/#/PointingToDeclaration/moov-android/io.moov.sdk/-t-a-g.html
 $dokka.location:io.moov.sdk//getStringStackTrace/kotlin.Throwable#/PointingToDeclaration/moov-android/io.moov.sdk/get-string-stack-trace.html
 $dokka.location:io.moov.sdk/MoovSDK.Factory///PointingToDeclaration/moov-android/io.moov.sdk/-moov-s-d-k/-factory/index.html
-$dokka.location:io.moov.sdk/MoovSDK.Factory/createTerminal/#android.content.Context#io.moov.sdk.models.ClientConfiguration#java.util.UUID#java.util.UUID?/PointingToDeclaration/moov-android/io.moov.sdk/-moov-s-d-k/-factory/create-terminal.html
+$dokka.location:io.moov.sdk/MoovSDK.Factory/createTerminal/#android.content.Context#io.moov.sdk.models.ClientConfiguration#io.moov.sdk.models.MID[io.moov.sdk.models.Account]#io.moov.sdk.models.MID[io.moov.sdk.models.TerminalApplication]?/PointingToDeclaration/moov-android/io.moov.sdk/-moov-s-d-k/-factory/create-terminal.html
 $dokka.location:io.moov.sdk/MoovSDK.Factory/createTerminal/#android.content.Context#kotlin.String/PointingToDeclaration/moov-android/io.moov.sdk/-moov-s-d-k/-factory/create-terminal.html
 $dokka.location:io.moov.sdk/MoovSDK.Factory/isApplicationProcess/#/PointingToDeclaration/moov-android/io.moov.sdk/-moov-s-d-k/-factory/is-application-process.html
 $dokka.location:io.moov.sdk/MoovSDK.Factory/onApplicationCreated/#android.app.Application#io.moov.sdk.SDKLogger#io.opentelemetry.android.OpenTelemetryRum/PointingToDeclaration/moov-android/io.moov.sdk/-moov-s-d-k/-factory/on-application-created.html
