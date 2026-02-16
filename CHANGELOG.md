@@ -1,3 +1,9 @@
+# v0.20.1 (2026-02-16)
+
+## :warning: Breaking Changes
+
+- Replaced `UUID` types with `MID` type
+
 # v0.20.0 (2026-01-20)
 
 ## :sparkles: Test mode
