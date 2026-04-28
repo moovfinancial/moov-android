@@ -45,15 +45,6 @@ $dokka.location:io.moov.sdk.models/CreateTransferEvent.UnprocessableEntity///Poi
 $dokka.location:io.moov.sdk.models/CreateTransferEvent.UnprocessableEntity/UnprocessableEntity/#io.moov.sdk.models.TransferValidationError/PointingToDeclaration/moov-android/io.moov.sdk.models/-create-transfer-event/-unprocessable-entity/-unprocessable-entity.html
 $dokka.location:io.moov.sdk.models/CreateTransferEvent.UnprocessableEntity/error/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-create-transfer-event/-unprocessable-entity/error.html
 $dokka.location:io.moov.sdk.models/CreateTransferEvent///PointingToDeclaration/moov-android/io.moov.sdk.models/-create-transfer-event/index.html
-$dokka.location:io.moov.sdk.models/Mode.Companion///PointingToDeclaration/moov-android/io.moov.sdk.models/-mode/-companion/index.html
-$dokka.location:io.moov.sdk.models/Mode.Companion/fromString/#kotlin.String?/PointingToDeclaration/moov-android/io.moov.sdk.models/-mode/-companion/from-string.html
-$dokka.location:io.moov.sdk.models/Mode.PRODUCTION///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}moov-android/io.moov.sdk.models/-mode/-p-r-o-d-u-c-t-i-o-n/index.html
-$dokka.location:io.moov.sdk.models/Mode.SANDBOX///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}moov-android/io.moov.sdk.models/-mode/-s-a-n-d-b-o-x/index.html
-$dokka.location:io.moov.sdk.models/Mode///PointingToDeclaration/moov-android/io.moov.sdk.models/-mode/index.html
-$dokka.location:io.moov.sdk.models/Mode/entries/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-mode/entries.html
-$dokka.location:io.moov.sdk.models/Mode/toString/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-mode/to-string.html
-$dokka.location:io.moov.sdk.models/Mode/valueOf/#kotlin.String/PointingToDeclaration/moov-android/io.moov.sdk.models/-mode/value-of.html
-$dokka.location:io.moov.sdk.models/Mode/values/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-mode/values.html
 $dokka.location:io.moov.sdk.models/TapAuthorizationError.HardwareAttestationFailure///PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-error/-hardware-attestation-failure/index.html
 $dokka.location:io.moov.sdk.models/TapAuthorizationError.HardwareAttestationFailure/HardwareAttestationFailure/#kotlin.String?#kotlin.String?/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-error/-hardware-attestation-failure/-hardware-attestation-failure.html
 $dokka.location:io.moov.sdk.models/TapAuthorizationError.HardwareAttestationFailure/errorTrackingId/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-error/-hardware-attestation-failure/error-tracking-id.html
@@ -66,6 +57,7 @@ $dokka.location:io.moov.sdk.models/TapAuthorizationError.NetworkConnectionFailed
 $dokka.location:io.moov.sdk.models/TapAuthorizationError.NetworkConnectionFailed/NetworkConnectionFailed/#kotlin.String?/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-error/-network-connection-failed/-network-connection-failed.html
 $dokka.location:io.moov.sdk.models/TapAuthorizationError.NetworkConnectionFailed/reason/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-error/-network-connection-failed/reason.html
 $dokka.location:io.moov.sdk.models/TapAuthorizationError.NfcReaderFailure///PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-error/-nfc-reader-failure/index.html
+$dokka.location:io.moov.sdk.models/TapAuthorizationError.SurchargeNotEnabled///PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-error/-surcharge-not-enabled/index.html
 $dokka.location:io.moov.sdk.models/TapAuthorizationError.UnknownFailure///PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-error/-unknown-failure/index.html
 $dokka.location:io.moov.sdk.models/TapAuthorizationError.UnknownFailure/UnknownFailure/#kotlin.Throwable?/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-error/-unknown-failure/-unknown-failure.html
 $dokka.location:io.moov.sdk.models/TapAuthorizationError.UnknownFailure/throwable/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-error/-unknown-failure/throwable.html
@@ -74,11 +66,12 @@ $dokka.location:io.moov.sdk.models/TapAuthorizationError.UnsupportedVerification
 $dokka.location:io.moov.sdk.models/TapAuthorizationError.UnsupportedVerificationMethod/method/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-error/-unsupported-verification-method/method.html
 $dokka.location:io.moov.sdk.models/TapAuthorizationError///PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-error/index.html
 $dokka.location:io.moov.sdk.models/TapAuthorizationParams///PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-params/index.html
-$dokka.location:io.moov.sdk.models/TapAuthorizationParams/TapAuthorizationParams/#kotlin.ULong#java.util.Currency#io.moov.sdk.models.MID[io.moov.sdk.models.CustomerAccount]?#kotlin.String?/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-params/-tap-authorization-params.html
+$dokka.location:io.moov.sdk.models/TapAuthorizationParams/TapAuthorizationParams/#kotlin.ULong#java.util.Currency#io.moov.sdk.models.MID[io.moov.sdk.models.CustomerAccount]?#kotlin.String?#kotlin.ULong/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-params/-tap-authorization-params.html
 $dokka.location:io.moov.sdk.models/TapAuthorizationParams/amount/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-params/amount.html
 $dokka.location:io.moov.sdk.models/TapAuthorizationParams/currency/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-params/currency.html
 $dokka.location:io.moov.sdk.models/TapAuthorizationParams/customerAccountId/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-params/customer-account-id.html
 $dokka.location:io.moov.sdk.models/TapAuthorizationParams/customerReferenceNumber/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-params/customer-reference-number.html
+$dokka.location:io.moov.sdk.models/TapAuthorizationParams/surchargeAmount/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-params/surcharge-amount.html
 $dokka.location:io.moov.sdk.models/TerminalCreationResult.Created///PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-created/index.html
 $dokka.location:io.moov.sdk.models/TerminalCreationResult.Created/Created/#io.moov.sdk.Terminal/PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-created/-created.html
 $dokka.location:io.moov.sdk.models/TerminalCreationResult.Created/terminal/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-created/terminal.html
@@ -116,6 +109,8 @@ $dokka.location:io.moov.sdk.models/TerminalCreationResult.DeviceAttestationFaile
 $dokka.location:io.moov.sdk.models/TerminalCreationResult.DeviceAttestationFailed///PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-device-attestation-failed/index.html
 $dokka.location:io.moov.sdk.models/TerminalCreationResult.DeviceAttestationFailed/description/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-device-attestation-failed/description.html
 $dokka.location:io.moov.sdk.models/TerminalCreationResult.DeviceAttestationFailed/errorTrackingId/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-device-attestation-failed/error-tracking-id.html
+$dokka.location:io.moov.sdk.models/TerminalCreationResult.LocationDisabled///PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-location-disabled/index.html
+$dokka.location:io.moov.sdk.models/TerminalCreationResult.LocationPermissionRequired///PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-location-permission-required/index.html
 $dokka.location:io.moov.sdk.models/TerminalCreationResult.NetworkConnectionFailed///PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-network-connection-failed/index.html
 $dokka.location:io.moov.sdk.models/TerminalCreationResult.NfcReaderConnectionFailure///PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-nfc-reader-connection-failure/index.html
 $dokka.location:io.moov.sdk.models/TerminalCreationResult.NfcReaderPermissionRequired///PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-nfc-reader-permission-required/index.html
@@ -123,7 +118,8 @@ $dokka.location:io.moov.sdk.models/TerminalCreationResult.TerminalConfigurationE
 $dokka.location:io.moov.sdk.models/TerminalCreationResult.TerminalConfigurationError/TerminalConfigurationError/#kotlin.String?/PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-terminal-configuration-error/-terminal-configuration-error.html
 $dokka.location:io.moov.sdk.models/TerminalCreationResult.TerminalConfigurationError/reason/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-terminal-configuration-error/reason.html
 $dokka.location:io.moov.sdk.models/TerminalCreationResult.UnknownError///PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-unknown-error/index.html
-$dokka.location:io.moov.sdk.models/TerminalCreationResult.UnknownError/UnknownError/#kotlin.Throwable?/PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-unknown-error/-unknown-error.html
+$dokka.location:io.moov.sdk.models/TerminalCreationResult.UnknownError/UnknownError/#kotlin.Throwable?#kotlin.String?/PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-unknown-error/-unknown-error.html
+$dokka.location:io.moov.sdk.models/TerminalCreationResult.UnknownError/reason/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-unknown-error/reason.html
 $dokka.location:io.moov.sdk.models/TerminalCreationResult.UnknownError/throwable/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-unknown-error/throwable.html
 $dokka.location:io.moov.sdk.models/TerminalCreationResult.UnsupportedAndroidVersion///PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-unsupported-android-version/index.html
 $dokka.location:io.moov.sdk.models/TerminalCreationResult///PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/index.html

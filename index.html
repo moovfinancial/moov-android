@@ -1,45 +1,42 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html class="no-js" lang="en">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
     <title>moov-android</title>
     <link href="images/logo-icon.svg" rel="icon" type="image/svg">
-    <script>var pathToRoot = "";</script>
-    <script>document.documentElement.classList.replace("no-js","js");</script>
+        <script>var pathToRoot = "";</script>
+    <script>document.documentElement.classList.replace("no-js", "js");</script>
     <script>const storage = localStorage.getItem("dokka-dark-mode")
-    if (storage == null) {
+      if (storage == null) {
         const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
         if (osDarkSchemePreferred === true) {
-            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+          document.getElementsByTagName("html")[0].classList.add("theme-dark")
         }
-    } else {
+      } else {
         const savedDarkMode = JSON.parse(storage)
-        if(savedDarkMode === true) {
-            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        if (savedDarkMode === true) {
+          document.getElementsByTagName("html")[0].classList.add("theme-dark")
         }
-    }
+      }
     </script>
-<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async="async"></script>
 <script type="text/javascript" src="scripts/sourceset_dependencies.js" async="async"></script>
 <link href="styles/style.css" rel="Stylesheet">
 <link href="styles/main.css" rel="Stylesheet">
 <link href="styles/prism.css" rel="Stylesheet">
 <link href="styles/logo-styles.css" rel="Stylesheet">
-<link href="styles/font-jb-sans-auto.css" rel="Stylesheet">
 <link href="ui-kit/ui-kit.min.css" rel="Stylesheet">
-<script type="text/javascript" src="scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="scripts/safe-local-storage_blocking.js"></script>
 <script type="text/javascript" src="scripts/navigation-loader.js" async="async"></script>
 <script type="text/javascript" src="scripts/platform-content-handler.js" async="async"></script>
 <script type="text/javascript" src="scripts/main.js" defer="defer"></script>
 <script type="text/javascript" src="scripts/prism.js" async="async"></script>
 <script type="text/javascript" src="ui-kit/ui-kit.min.js" defer="defer"></script>
-<script type="text/javascript" src="scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
 <link href="images/logo.png">
 </head>
 <body>
-    <div class="root">
-    <nav class="navigation theme-dark" id="navigation-wrapper">
-            <a class="library-name--link" href="index.html">
+<div class="root">
+    <header class="navigation theme-dark" id="navigation-wrapper" role="banner">
+            <a class="library-name--link" href="index.html" tabindex="1">
                     moov-android
             </a>
         <button class="navigation-controls--btn navigation-controls--btn_toc ui-kit_mobile-only" id="toc-toggle"
@@ -47,11 +44,11 @@
         </button>
         <div class="navigation-controls--break ui-kit_mobile-only"></div>
         <div class="library-version" id="library-version">
-0.21.2        </div>
+0.22.0        </div>
         <div class="navigation-controls">
-        <div class="filter-section filter-section_loading" id="filter-section">
-                <button class="platform-tag platform-selector jvm-like" data-active=""
-                        data-filter=":/release">androidJvm</button>
+        <ul class="filter-section filter-section_loading" id="filter-section" aria-label="Target filter">
+                <button class="platform-tag platform-selector jvm-like" data-active="" aria-pressed="true"
+                        data-filter=":/release">release</button>
             <div class="dropdown filter-section--dropdown" data-role="dropdown" id="filter-section-dropdown">
                 <button class="button button_dropdown filter-section--dropdown-toggle" role="combobox"
                         data-role="dropdown-toggle"
@@ -60,9 +57,9 @@
                         aria-expanded="false"
                         aria-label="Toggle source sets"
                 ></button>
-                <ul role="listbox" id="platform-tags-listbox" class="dropdown--list" data-role="dropdown-listbox">
-                    <div class="dropdown--header"><span>Platform filter</span>
-                        <button class="button" data-role="dropdown-toggle" aria-label="Close platform filter">
+                <ul role="listbox" id="platform-tags-listbox" class="dropdown--list" data-role="dropdown-listbox" aria-label="Target filter">
+                    <div class="dropdown--header"><span>Target filter</span>
+                        <button class="button" data-role="dropdown-toggle" aria-label="Close target filter">
                             <i class="ui-kit-icon ui-kit-icon_cross"></i>
                         </button>
                     </div>
@@ -71,13 +68,13 @@
                                 <input type="checkbox" class="checkbox--input" id=":/release"
                                        data-filter=":/release"/>
                                 <span class="checkbox--icon"></span>
-                                androidJvm
+                                release
                             </label>
                         </li>
                 </ul>
                 <div class="dropdown--overlay"></div>
             </div>
-        </div>
+        </ul>
             <button class="navigation-controls--btn navigation-controls--btn_theme" id="theme-toggle-button"
                     type="button">Switch theme
             </button>
@@ -85,69 +82,71 @@
                 API
             </div>
         </div>
-    </nav>
-        <div id="container">
-            <div class="sidebar" id="leftColumn">
-                <div class="dropdown theme-dark_mobile" data-role="dropdown" id="toc-dropdown">
-                    <ul role="listbox" id="toc-listbox" class="dropdown--list dropdown--list_toc-list"
-                        data-role="dropdown-listbox">
-                        <div class="dropdown--header">
+    </header>
+    <div id="container">
+        <nav id="leftColumn" class="sidebar" data-item-type="SECTION" data-item-config='{"defaultSize": 280, "minSize": 200, "maxSize": 400}'>
+            <a class="toc--skip-link" href="#main">Skip to content</a>
+            <div class="dropdown theme-dark_mobile" data-role="dropdown" id="toc-dropdown">
+                <ul role="listbox" id="toc-listbox" class="dropdown--list dropdown--list_toc-list"
+                    data-role="dropdown-listbox" aria-label="Table of contents">
+                    <div class="dropdown--header">
                             <span>
                                     moov-android
                             </span>
-                            <button class="button" data-role="dropdown-toggle" aria-label="Close table of contents">
-                                <i class="ui-kit-icon ui-kit-icon_cross"></i>
-                            </button>
-                        </div>
-                        <div class="sidebar--inner" id="sideMenu"></div>
-                    </ul>
-                    <div class="dropdown--overlay"></div>
-                </div>
+                        <button class="button" data-role="dropdown-toggle" aria-label="Close table of contents">
+                            <i class="ui-kit-icon ui-kit-icon_cross"></i>
+                        </button>
+                    </div>
+                    <div class="sidebar--inner" id="sideMenu"></div>
+                </ul>
+                <div class="dropdown--overlay"></div>
             </div>
-            <div id="main">
-<div class="main-content" id="content" pageIds="moov-android::////PointingToDeclaration//275946699">
+        </nav>
+        <div id="resizer" class="resizer" data-item-type="BAR"></div>
+        <div id="main" data-item-type="SECTION" role="main">
+<div class="main-content" id="content" pageIds="moov-android::////PointingToDeclaration//1404203640">
   <div class="breadcrumbs"></div>
   <div class="cover ">
     <h1 class="cover"><span><span>moov-android</span></span></h1>
     <div class="platform-hinted UnderCoverText" data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":/release"><p class="paragraph">The Moov SDK provides tap-to-pay functionality via an Android app</p><h2 class="">Requirements</h2><h3 class="">Device Support</h3><ul><li><p class="paragraph">Android 10.0 (API 29) minimum</p></li><li><p class="paragraph">Google Play Services v11+</p></li></ul><h3 class="">Tooling</h3><ul><li><p class="paragraph">AGP version <code class="lang-kotlin">&gt;=8.6.0</code></p></li><li><p class="paragraph">Gradle version <code class="lang-kotlin">&gt;=8.7</code></p></li></ul><h3 class="">App Permissions</h3><ul><li><p class="paragraph"><code class="lang-kotlin">android.Manifest.permission.NFC</code> – the SDK uses the NFC feature of the Android device to communicate with the payment card/mobile wallet. Without this permission the Tap on Phone solution will not work.</p></li><li><p class="paragraph"><code class="lang-kotlin">android.Manifest.permission.VIBRATE</code> – the SDK uses the Vibrate feature of the Android device for the required Haptics and to indicate a card has been read.</p></li><li><p class="paragraph"><code class="lang-kotlin">android.permission.INTERNET</code> – the SDK requires access to internet to communicate to backend services – assumption is that all partner applications will be online so it should not be an additional permission for most partners.</p></li><li><p class="paragraph"><code class="lang-kotlin">android.permission.ACCESS_NETWORK_STATE</code> – ensures that the SDK can communicate before attempting a transaction.</p></li></ul><h3 class="">Miscellaneous</h3><ul><li><p class="paragraph">Applications should prevent the screen from sleeping while waiting to accept a tap.</p></li><li><p class="paragraph">Device must pass Google Play Strong Integrity Checks</p></li></ul><h2 class="">Application registration</h2><p class="paragraph">Applications utilizing this SDK must be registered via the <a href="https://github.com/moovfinancial/moov-java/blob/main/docs/sdks/terminalapplications/README.md">Moov API</a>. This process enables device integrity checks as well as authorizing specific merchants to utilize the Tap to Pay SDK. The process for application registration is as follows:</p><ol><li><p class="paragraph">Create a <code class="lang-kotlin">TerminalApplication</code> via <code class="lang-kotlin">POST /terminal-applications</code></p></li><li><p class="paragraph">Wait for the application to move to <code class="lang-kotlin">enabled</code>. This can be detected via the <code class="lang-kotlin">terminalAppRegistration.updated</code> webhook and will happen asynchronously</p></li><li><p class="paragraph">Link the <code class="lang-kotlin">TerminalApplication</code> to a merchant via <code class="lang-kotlin">POST /accounts/{accountID}/terminal-applications</code></p></li><li><p class="paragraph">When a new version of the application is published to Google Play, register this version via <code class="lang-kotlin">POST /terminal-applications/{terminalApplicationID}/versions</code></p></li></ol><p class="paragraph">The <code class="lang-kotlin">terminalConfig</code> value referenced in the examples below is the output of the <a href="https://github.com/moovfinancial/moov-java/blob/main/docs/sdks/terminalconfigurations/README.md#get">terminalConfigurations API</a>. This is an opaque string which contains information necessary for the <code class="lang-kotlin">Terminal</code> to operate properly.</p><h3 class="">Test mode</h3><p class="paragraph">Test mode enables you to validate and test your SDK integration without handling real payments. The mode—test or production—is determined by the terminal configuration obtained from the Moov API. For further guidance, refer to the <a href="https://docs.moov.io/guides/money-movement/accept-payments/card-acceptance/tap-to-pay-android/">Moov Docs</a>.</p></div></div>
   </div>
   <h2 class="">Packages</h2>
-  <div class="table"><a data-name="1992204863%2FPackages%2F275946699" anchor-label="io.moov.sdk" id="1992204863%2FPackages%2F275946699" data-filterable-set=":/release"></a>
-    <div class="table-row" data-filterable-current=":/release" data-filterable-set=":/release">
+  <div class="table"><a data-name="1992204863%2FPackages%2F1404203640" anchor-label="io.moov.sdk" id="1992204863%2FPackages%2F1404203640" data-filterable-set=":/release"></a>
+    <div class="table-row table-row_platform-tagged" data-filterable-current=":/release" data-filterable-set=":/release">
       <div>
         <div class="main-subrow ">
           <div class=""><span class="inline-flex">
               <div><a href="moov-android/io.moov.sdk/index.html">io.moov.sdk</a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1992204863%2FPackages%2F275946699"></span>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1992204863%2FPackages%2F1404203640"></span>
                 <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
               </span></span></div>
-          <div class="pull-right">
+          <div class="pull-right platform-tags--wrapper">
             <div class="platform-tags no-gutters">
-              <div class="platform-tag jvm-like">androidJvm</div>
+              <div class="platform-tag jvm-like">release</div>
             </div>
           </div>
         </div>
-        <div><span class="brief-comment"><a data-name="1992204863%2FPackages%2F275946699" anchor-label="io.moov.sdk" id="1992204863%2FPackages%2F275946699" data-filterable-set=":/release"></a>
+        <div><span class="brief-comment"><a data-name="1992204863%2FPackages%2F1404203640" anchor-label="io.moov.sdk" id="1992204863%2FPackages%2F1404203640" data-filterable-set=":/release"></a>
             <p class="paragraph">Applications should prevent the screen from sleeping while waiting to accept a tap.</p>
           </span></div>
       </div>
     </div>
-<a data-name="-330080515%2FPackages%2F275946699" anchor-label="io.moov.sdk.models" id="-330080515%2FPackages%2F275946699" data-filterable-set=":/release"></a>
-    <div class="table-row" data-filterable-current=":/release" data-filterable-set=":/release">
+<a data-name="-330080515%2FPackages%2F1404203640" anchor-label="io.moov.sdk.models" id="-330080515%2FPackages%2F1404203640" data-filterable-set=":/release"></a>
+    <div class="table-row table-row_platform-tagged" data-filterable-current=":/release" data-filterable-set=":/release">
       <div>
         <div class="main-subrow ">
           <div class=""><span class="inline-flex">
               <div><a href="moov-android/io.moov.sdk.models/index.html">io.moov.sdk.models</a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-330080515%2FPackages%2F275946699"></span>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-330080515%2FPackages%2F1404203640"></span>
                 <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
               </span></span></div>
-          <div class="pull-right">
+          <div class="pull-right platform-tags--wrapper">
             <div class="platform-tags no-gutters">
-              <div class="platform-tag jvm-like">androidJvm</div>
+              <div class="platform-tag jvm-like">release</div>
             </div>
           </div>
         </div>
-        <div><span class="brief-comment"><a data-name="-330080515%2FPackages%2F275946699" anchor-label="io.moov.sdk.models" id="-330080515%2FPackages%2F275946699" data-filterable-set=":/release"></a>
+        <div><span class="brief-comment"><a data-name="-330080515%2FPackages%2F1404203640" anchor-label="io.moov.sdk.models" id="-330080515%2FPackages%2F1404203640" data-filterable-set=":/release"></a>
             <p class="paragraph">Models for use in the Moov SDK</p>
           </span></div>
       </div>
@@ -155,17 +154,21 @@
   </div>
 </div>
     <div class="footer">
-        <a href="#content" id="go-to-top-link" class="footer--button footer--button_go-to-top"></a>
-        <span>© Moov Financial, Inc. 2025 All rights reserved</span>
-        <span class="pull-right">
-            <span>Generated by </span>
-            <a class="footer--link footer--link_external" href="https://github.com/Kotlin/dokka">
-                <span>dokka</span>
-            </a>
-        </span>
-    </div>
+        <div class="footer--container">
+            <a href="#content" id="go-to-top-link" class="footer--button footer--button_go-to-top"></a>
+            <div class="footer--content">
+                <div>
+                    <span>Generated by </span>
+                    <a class="footer--link footer--link_external" href="https://github.com/Kotlin/dokka">
+                        Dokka
+                    </a>
+                    <div>© Moov Financial, Inc. 2025 All rights reserved</div>
+                </div>
             </div>
         </div>
     </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
