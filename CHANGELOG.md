@@ -1,4 +1,23 @@
-# v0.20.1 (2026-02-16)
+# v0.22.0 (2026-04-28)
+
+## :sparkles: Features
+- surcharge fee support
+
+## Misc
+- major dependency upgrades
+- moov kotlin [v0.7.0](https://central.sonatype.com/artifact/io.moov/kotlin-sdk/0.7.0)
+
+# v0.21.2 (2026-03-03)
+
+## :bug: Fixes
+
+- fixes a crash caused by a dependency update
+
+# v0.21.1 (2026-02-19)
+
+- dependency upgrades (bugfix/security)
+
+# v0.21.0 (2026-02-16)
 
 ## :warning: Breaking Changes
 
