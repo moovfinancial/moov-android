@@ -1,3 +1,14 @@
+# v0.23.0 (2026-06-23)
+
+## :warning: Breaking Changes
+
+- `TapAuthorizationParams` now takes a single `TapAmount` instead of separate `amount`, `currency`, and `surchargeAmount` parameters
+
+## :sparkles: Features
+
+- tip support for tap authorizations and transfers
+- tip and surcharge are now recorded on the resulting transfer via `amountDetails`
+
 # v0.22.1 (2026-06-16)
 
 ## Misc
