@@ -45,6 +45,12 @@ $dokka.location:io.moov.sdk.models/CreateTransferEvent.UnprocessableEntity///Poi
 $dokka.location:io.moov.sdk.models/CreateTransferEvent.UnprocessableEntity/UnprocessableEntity/#io.moov.sdk.models.TransferValidationError/PointingToDeclaration/moov-android/io.moov.sdk.models/-create-transfer-event/-unprocessable-entity/-unprocessable-entity.html
 $dokka.location:io.moov.sdk.models/CreateTransferEvent.UnprocessableEntity/error/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-create-transfer-event/-unprocessable-entity/error.html
 $dokka.location:io.moov.sdk.models/CreateTransferEvent///PointingToDeclaration/moov-android/io.moov.sdk.models/-create-transfer-event/index.html
+$dokka.location:io.moov.sdk.models/TapAmount///PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-amount/index.html
+$dokka.location:io.moov.sdk.models/TapAmount/TapAmount/#kotlin.ULong#java.util.Currency#kotlin.ULong#kotlin.ULong/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-amount/-tap-amount.html
+$dokka.location:io.moov.sdk.models/TapAmount/amount/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-amount/amount.html
+$dokka.location:io.moov.sdk.models/TapAmount/currency/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-amount/currency.html
+$dokka.location:io.moov.sdk.models/TapAmount/surcharge/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-amount/surcharge.html
+$dokka.location:io.moov.sdk.models/TapAmount/tip/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-amount/tip.html
 $dokka.location:io.moov.sdk.models/TapAuthorizationError.HardwareAttestationFailure///PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-error/-hardware-attestation-failure/index.html
 $dokka.location:io.moov.sdk.models/TapAuthorizationError.HardwareAttestationFailure/HardwareAttestationFailure/#kotlin.String?#kotlin.String?/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-error/-hardware-attestation-failure/-hardware-attestation-failure.html
 $dokka.location:io.moov.sdk.models/TapAuthorizationError.HardwareAttestationFailure/errorTrackingId/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-error/-hardware-attestation-failure/error-tracking-id.html
@@ -66,12 +72,10 @@ $dokka.location:io.moov.sdk.models/TapAuthorizationError.UnsupportedVerification
 $dokka.location:io.moov.sdk.models/TapAuthorizationError.UnsupportedVerificationMethod/method/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-error/-unsupported-verification-method/method.html
 $dokka.location:io.moov.sdk.models/TapAuthorizationError///PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-error/index.html
 $dokka.location:io.moov.sdk.models/TapAuthorizationParams///PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-params/index.html
-$dokka.location:io.moov.sdk.models/TapAuthorizationParams/TapAuthorizationParams/#kotlin.ULong#java.util.Currency#io.moov.sdk.models.MID[io.moov.sdk.models.CustomerAccount]?#kotlin.String?#kotlin.ULong/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-params/-tap-authorization-params.html
-$dokka.location:io.moov.sdk.models/TapAuthorizationParams/amount/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-params/amount.html
-$dokka.location:io.moov.sdk.models/TapAuthorizationParams/currency/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-params/currency.html
+$dokka.location:io.moov.sdk.models/TapAuthorizationParams/TapAuthorizationParams/#io.moov.sdk.models.TapAmount#io.moov.sdk.models.MID[io.moov.sdk.models.CustomerAccount]?#kotlin.String?/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-params/-tap-authorization-params.html
 $dokka.location:io.moov.sdk.models/TapAuthorizationParams/customerAccountId/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-params/customer-account-id.html
 $dokka.location:io.moov.sdk.models/TapAuthorizationParams/customerReferenceNumber/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-params/customer-reference-number.html
-$dokka.location:io.moov.sdk.models/TapAuthorizationParams/surchargeAmount/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-params/surcharge-amount.html
+$dokka.location:io.moov.sdk.models/TapAuthorizationParams/tapAmount/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-params/tap-amount.html
 $dokka.location:io.moov.sdk.models/TerminalCreationResult.Created///PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-created/index.html
 $dokka.location:io.moov.sdk.models/TerminalCreationResult.Created/Created/#io.moov.sdk.Terminal/PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-created/-created.html
 $dokka.location:io.moov.sdk.models/TerminalCreationResult.Created/terminal/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-created/terminal.html
