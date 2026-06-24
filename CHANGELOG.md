@@ -1,3 +1,9 @@
+# v0.23.1 (2026-06-24)
+
+## Misc
+
+- dependency upgrades (bugfix/security)
+
 # v0.23.0 (2026-06-23)
 
 ## :warning: Breaking Changes
