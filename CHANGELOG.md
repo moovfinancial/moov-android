@@ -1,3 +1,17 @@
+# v0.25.0 (2026-09-11)
+
+## :sparkles: Features
+
+- Terminal.configurationExpiresAt — when the terminal configuration backing this terminal expires. Use it to refresh while the terminal is idle rather than discovering the expiry mid-transaction. null for sandbox terminals.
+- TerminalCreationResult.TerminalConfigurationExpired — returned by createTerminal when the supplied configuration has expired. Fetch a new configuration from the Moov API and call createTerminal again.
+
+
+# v0.24.0 (2026-08-11)
+
+## Misc
+
+- dependency upgrades (bugfix/security)
+
 # v0.23.1 (2026-06-24)
 
 ## Misc
