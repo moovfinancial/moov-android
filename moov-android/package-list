@@ -121,6 +121,9 @@ $dokka.location:io.moov.sdk.models/TerminalCreationResult.NfcReaderPermissionReq
 $dokka.location:io.moov.sdk.models/TerminalCreationResult.TerminalConfigurationError///PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-terminal-configuration-error/index.html
 $dokka.location:io.moov.sdk.models/TerminalCreationResult.TerminalConfigurationError/TerminalConfigurationError/#kotlin.String?/PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-terminal-configuration-error/-terminal-configuration-error.html
 $dokka.location:io.moov.sdk.models/TerminalCreationResult.TerminalConfigurationError/reason/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-terminal-configuration-error/reason.html
+$dokka.location:io.moov.sdk.models/TerminalCreationResult.TerminalConfigurationExpired///PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-terminal-configuration-expired/index.html
+$dokka.location:io.moov.sdk.models/TerminalCreationResult.TerminalConfigurationExpired/TerminalConfigurationExpired/#java.time.Instant?/PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-terminal-configuration-expired/-terminal-configuration-expired.html
+$dokka.location:io.moov.sdk.models/TerminalCreationResult.TerminalConfigurationExpired/expiredAt/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-terminal-configuration-expired/expired-at.html
 $dokka.location:io.moov.sdk.models/TerminalCreationResult.UnknownError///PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-unknown-error/index.html
 $dokka.location:io.moov.sdk.models/TerminalCreationResult.UnknownError/UnknownError/#kotlin.Throwable?#kotlin.String?/PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-unknown-error/-unknown-error.html
 $dokka.location:io.moov.sdk.models/TerminalCreationResult.UnknownError/reason/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-terminal-creation-result/-unknown-error/reason.html
@@ -158,6 +161,7 @@ $dokka.location:io.moov.sdk/SandboxTerminal/clearTestCardSelection/#/PointingToD
 $dokka.location:io.moov.sdk/SandboxTerminal/getTestCases/#/PointingToDeclaration/moov-android/io.moov.sdk/-sandbox-terminal/get-test-cases.html
 $dokka.location:io.moov.sdk/SandboxTerminal/selectTestCard/#kotlin.String/PointingToDeclaration/moov-android/io.moov.sdk/-sandbox-terminal/select-test-card.html
 $dokka.location:io.moov.sdk/Terminal///PointingToDeclaration/moov-android/io.moov.sdk/-terminal/index.html
+$dokka.location:io.moov.sdk/Terminal/configurationExpiresAt/#/PointingToDeclaration/moov-android/io.moov.sdk/-terminal/configuration-expires-at.html
 $dokka.location:io.moov.sdk/Terminal/createTapAuthorization/#io.moov.sdk.models.TapAuthorizationParams/PointingToDeclaration/moov-android/io.moov.sdk/-terminal/create-tap-authorization.html
 $dokka.location:io.moov.sdk/Terminal/createTapTransfer/#io.moov.sdk.models.CreateTapTransferParams/PointingToDeclaration/moov-android/io.moov.sdk/-terminal/create-tap-transfer.html
 $dokka.location:io.moov.sdk/Terminal/dispose/#/PointingToDeclaration/moov-android/io.moov.sdk/-terminal/dispose.html
