@@ -1,3 +1,9 @@
+# v0.25.1 (2026-09-21)
+
+## Misc
+
+-	minor bugfixes in terminal initialization
+
 # v0.25.0 (2026-09-11)
 
 ## :sparkles: Features
