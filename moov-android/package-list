@@ -51,6 +51,9 @@ $dokka.location:io.moov.sdk.models/TapAmount/amount/#/PointingToDeclaration/moo
 $dokka.location:io.moov.sdk.models/TapAmount/currency/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-amount/currency.html
 $dokka.location:io.moov.sdk.models/TapAmount/surcharge/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-amount/surcharge.html
 $dokka.location:io.moov.sdk.models/TapAmount/tip/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-amount/tip.html
+$dokka.location:io.moov.sdk.models/TapAuthorizationError.ConfigurationExpired///PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-error/-configuration-expired/index.html
+$dokka.location:io.moov.sdk.models/TapAuthorizationError.ConfigurationExpired/ConfigurationExpired/#java.time.Instant?/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-error/-configuration-expired/-configuration-expired.html
+$dokka.location:io.moov.sdk.models/TapAuthorizationError.ConfigurationExpired/expiredAt/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-error/-configuration-expired/expired-at.html
 $dokka.location:io.moov.sdk.models/TapAuthorizationError.HardwareAttestationFailure///PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-error/-hardware-attestation-failure/index.html
 $dokka.location:io.moov.sdk.models/TapAuthorizationError.HardwareAttestationFailure/HardwareAttestationFailure/#kotlin.String?#kotlin.String?/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-error/-hardware-attestation-failure/-hardware-attestation-failure.html
 $dokka.location:io.moov.sdk.models/TapAuthorizationError.HardwareAttestationFailure/errorTrackingId/#/PointingToDeclaration/moov-android/io.moov.sdk.models/-tap-authorization-error/-hardware-attestation-failure/error-tracking-id.html
