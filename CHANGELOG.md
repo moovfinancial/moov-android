@@ -1,3 +1,21 @@
+# v0.26.2 (2026-09-28)
+
+## Misc
+
+- dependency upgrades (bugfix/security)
+
+# v0.26.1 (2026-09-23)
+
+## Misc
+
+- dependency upgrades (bugfix/security)
+
+# v0.26.0 (2026-09-22)
+
+## :warning: Breaking Changes
+
+- `TapAuthorizationError.ConfigurationExpired` — emitted by `createTapAuthorization` and `createTapTransfer` when the terminal configuration has expired. Exhaustive `when` expressions over `TapAuthorizationError` must handle the new case. The terminal cannot be reused: dispose it, create a new one from a fresh configuration, and authorize again.
+
 # v0.25.2 (2026-09-21)
 
 ## Misc
