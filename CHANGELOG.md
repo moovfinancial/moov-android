@@ -1,3 +1,27 @@
+# v0.26.6 (2026-11-23)
+
+## Misc
+
+- dependency upgrades (bugfix/security)
+
+# v0.26.5 (2026-11-23)
+
+## Misc
+
+- minor bugfixes in tap authorization and transfer error handling
+
+# v0.26.4 (2026-11-23)
+
+## Misc
+
+- minor bugfixes in terminal creation and transaction handling
+
+# v0.26.3 (2026-11-16)
+
+## Misc
+
+- dependency upgrades (bugfix/security)
+
 # v0.26.2 (2026-09-28)
 
 ## Misc
